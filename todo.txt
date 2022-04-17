@@ -1,0 +1,4 @@
+1. De adaugat sigla UPB/ETTI si Kapsch
+2. Ling de la sigle catre site-uri
+3. Sa adaug si ip-ul celui care viziteaza site-ul
+4. reduc nr zecimale
