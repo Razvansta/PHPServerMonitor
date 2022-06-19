@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <META HTTP-EQUIV="Refresh" CONTENT=2>
+   <!-- <META HTTP-EQUIV="Refresh" CONTENT=2>-->
     <!--Pentru a da refresh automat paginii si a afla datele automat-->
     <link rel="stylesheet" href="sheet.css">
 </head>
@@ -183,7 +183,7 @@ $browser_name = get_browser_name($_SERVER['HTTP_USER_AGENT']);
                                     $mem_percent
                                 ) ?> </td>
                         <td> <?php echo sprintf(
-                                    "%s GiB / %s Gib (%s%%)",
+                                    "%s GiB / %s GiB (%s%%)",
                                     $disk_usage,
                                     $disk_total,
                                     $disk_percent
@@ -218,15 +218,15 @@ $browser_name = get_browser_name($_SERVER['HTTP_USER_AGENT']);
             
         </div>
         <div class="content-small">
-            <center>Detalii Server Amazon EC2</center>
+            <center>Detalii Server Google Cloud Platform #1</center>
             <ul>
-                <li>CPU: Intel(R) Xeon(R) CPU E5-2676 @ 2.40 GHz</li>
-                <li>Memory: 1 Gib</li>
-                <li>Storage: 10 GiB, EBS</li>
+                <li>CPU: Intel(R) Xeon(R) CPU @ 2.20 GHz</li>
+                <li>Memory:4 Gib</li>
+                <li>Storage:10 GiB, SCSI Disk</li>
             </ul>
         </div>
         <div class="content-small">
-            <center>Detalii Server Google Cloud Platform</center>
+            <center>Detalii Server Google Cloud Platform #2</center>
             <ul>
                 <li>CPU: Intel(R) Xeon(R) CPU @ 2.20 GHz</li>
                 <li>Memory:4 Gib</li>
